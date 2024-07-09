@@ -39,31 +39,31 @@
 #ifdef  CONFIG_PRODUCT_STATUS
 #define PRODUCT_STATUS    CONFIG_PRODUCT_STATUS
 #else
-#define PRODUCT_STATUS   "Status: development branch - not safe for use in production."
+#define PRODUCT_STATUS   ""
 #endif
 
 #ifdef CONFIG_PRODUCT_URL_BUGS
 #define PRODUCT_URL_BUGS  CONFIG_PRODUCT_URL_BUGS
 #else
-#define PRODUCT_URL_BUGS "http://www.haproxy.org/bugs/bugs-%s.html"
+#define PRODUCT_URL_BUGS "support@tproxy.com"
 #endif
 
 #ifdef  CONFIG_PRODUCT_URL
 #define PRODUCT_URL    CONFIG_PRODUCT_URL
 #else
-#define PRODUCT_URL    "http://www.haproxy.org/"
+#define PRODUCT_URL    ""
 #endif
 
 #ifdef  CONFIG_PRODUCT_URL_UPD
 #define PRODUCT_URL_UPD  CONFIG_PRODUCT_URL_UPD
 #else
-#define PRODUCT_URL_UPD "http://www.haproxy.org/#down"
+#define PRODUCT_URL_UPD ""
 #endif
 
 #ifdef  CONFIG_PRODUCT_URL_DOC
 #define PRODUCT_URL_DOC  CONFIG_PRODUCT_URL_DOC
 #else
-#define PRODUCT_URL_DOC "http://www.haproxy.org/#docs"
+#define PRODUCT_URL_DOC ""
 #endif
 
 #ifdef CONFIG_HAPROXY_VERSION

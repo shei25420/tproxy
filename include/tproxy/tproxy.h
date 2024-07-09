@@ -2,7 +2,7 @@
  * include/tproxy/tproxy.h
  * This file defines everything related to tproxy.
  *
- * Copyright (C) Jiang Wenyuan, < koubunen AT gmail DOT com >
+ *
  *
  * This library is free software; you can redistribute it and/or
  * modify it under the terms of the GNU Lesser General Public
@@ -22,8 +22,8 @@
 #ifndef _tproxy_H
 #define _tproxy_H
 
-#define tproxy_VERSION    "5.4.0.24-dev"
-#define tproxy_COPYRIGHT  "2017-present, Jiang Wenyuan, <koubunen AT gmail DOT com >"
+#define tproxy_VERSION    "1.0.0"
+#define tproxy_COPYRIGHT  "2022-present"
 
 #include <haproxy/applet-t.h>
 
